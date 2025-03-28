@@ -1,0 +1,6 @@
+project = "igp"
+desired_nodes = 3
+max_nodes = 10
+min_nodes = 5
+instance_type = "t3.large"
+bucket_name = "igp-frontend-ticket-prod"
