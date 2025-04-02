@@ -44,7 +44,7 @@ resource "aws_db_instance" "cbz_db_instance" {
   engine_version       = "8.0"
   instance_class       = "db.t3.micro" # Free-tier eligible instance type
   username             = "admin"
-password             = "Redhat123"
+  password             = "Redhat123"
   parameter_group_name = "default.mysql8.0"
   publicly_accessible  = true
   vpc_security_group_ids = [aws_security_group.rds_sg.id]
